@@ -1,0 +1,208 @@
+/* Set variables for colors */
+/* Background */
+.content-wrapper, .right-side {
+  background-color: #F4F4F4;
+  /* Set background colour */
+}
+
+/* Header elements */
+.skin-blue .main-header {
+  /* Set colours for navbar (entire top bar) and logo (top left corner) */
+}
+
+.skin-blue .main-header .navbar {
+  color: #ffffff;
+  background-color: #003A5A;
+}
+
+.skin-blue .main-header .logo, .skin-blue .main-header .logo:hover {
+  background-color: #003A5A;
+  color: #ffffff;
+}
+
+.skin-blue .main-header .navbar {
+  /* Set colours for sidebar toggle */
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+  background-color: #003A5A;
+  color: #F4F4F4;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+  background-color: #003A5A;
+  color: #7A7A78;
+}
+
+/* Sidebar */
+.left-side, .main-sidebar {
+  /* Set padding for sidebar */
+  padding-top: 0px;
+}
+
+.skin-blue .main-sidebar {
+  /* Set color for sidebar */
+  background-color: #F4F4F4;
+}
+
+.skin-blue .left-side,
+.skin-blue .wrapper {
+  background-color: #F4F4F4;
+}
+
+.sidebar.shiny-bound-input li {
+  padding: 10px;
+  /* Space between sidebar elements */
+  list-style-type: none;
+  /* Remove bullets */
+}
+
+.sidebar.shiny-bound-input li a {
+  color: #7A7A78;
+}
+
+.skin-blue .sidebar-menu > li > a {
+  /* Set colors of sidebar text - inactive */
+  background: transparent;
+  color: #7A7A78;
+  border-left-color: transparent;
+}
+
+.skin-blue .sidebar-menu > li.active > a,
+.skin-blue .sidebar-menu > li.active:hover > a {
+  /* Set colors of sidebar text - active */
+  background: transparent;
+  color: #444444;
+  border-left-color: #003A5A;
+}
+
+.skin-blue .sidebar-menu > li:hover > a {
+  /* Set colors of sidebar text - hover */
+  background: transparent;
+  color: #7A7A78;
+  border-left-color: transparent;
+}
+
+/* Fonts */
+body {
+  font-family: 'Nunito', Helvetica, sans-serif;
+  color: #7A7A78;
+  background-color: #F4F4F4;
+}
+
+p {
+  color: #7A7A78;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #003A5A;
+  letter-spacing: 0;
+  line-height: 1.2em;
+  margin-top: 18px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #003A5A;
+  letter-spacing: 0;
+  line-height: 1.2em;
+}
+
+a {
+  color: #003A5A;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+label {
+  color: #7A7A78;
+}
+
+/* Boxes */
+.box {
+  background: #fff;
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 0 0 5px #ccc;
+  border-top-width: 0px;
+  padding: 15px 20px 15px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+/* Nav tabs*/
+.nav-tabs-custom {
+  /* For navtabs box (tabs and contents) */
+  background: #ffffff;
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 0 0 5px #ccc;
+  border-top-width: 0px;
+  padding: 15px 20px 15px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.nav-tabs-custom > .nav-tabs {
+  /* For tabs */
+  background-color: #ffffff;
+  border-width: 0px;
+}
+
+.nav-tabs-custom > .nav-tabs li {
+  margin-bottom: 0;
+  /* Stops unselected tabs from overlapping with tab-content*/
+}
+
+.nav-tabs-custom > .nav-tabs > li > a {
+  /* Set color of all tabs */
+  background: #ffffff;
+  color: #7A7A78;
+}
+
+.nav-tabs-custom > .nav-tabs > li.active {
+  /* Set border and colors for selected tab */
+  border-top-color: #003A5A;
+}
+
+.nav-tabs-custom > .nav-tabs > li.active a {
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+/* Other elements*/
+.control-label {
+  /* Set color of labels */
+  color: #444444;
+}
+
+img {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.progress-bar {
+  background-color: #003A5A;
+  /* Set color of progress bar*/
+  border-radius: 0;
+}
+

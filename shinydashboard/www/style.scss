@@ -1,0 +1,200 @@
+/* Set variables for colors */
+
+$light-grey: #F4F4F4;
+$dark-blue: #003A5A;
+$black: #000000;
+$white: #ffffff;
+$med-grey: #7A7A78;
+$dark-grey: #444444;
+
+/* Background */
+
+.content-wrapper, .right-side {
+  background-color: $light-grey; /* Set background colour */
+}
+
+/* Header elements */
+
+.skin-blue .main-header { /* Set colours for navbar (entire top bar) and logo (top left corner) */
+  .navbar {
+    color: $white;
+    background-color: $dark-blue;
+    }
+    .logo, .logo:hover {
+    background-color: $dark-blue;
+    color: $white;
+  }
+}
+
+.skin-blue .main-header .navbar { /* Set colours for sidebar toggle */
+    .sidebar-toggle {
+        background-color: $dark-blue;
+        color: $light-grey;
+        &:hover {
+        background-color: $dark-blue;
+        color: $med-grey;
+    }
+  }
+}
+
+/* Sidebar */
+
+.left-side, .main-sidebar { /* Set padding for sidebar */
+  padding-top: 0px;
+}
+
+.skin-blue .main-sidebar { /* Set color for sidebar */
+    background-color: $light-grey;
+}
+
+.skin-blue .left-side,
+.skin-blue .wrapper {
+      background-color: $light-grey;
+}
+
+.sidebar.shiny-bound-input li {
+  padding: 10px; /* Space between sidebar elements */
+  list-style-type: none; /* Remove bullets */
+  a {
+    color: $med-grey ;
+  }
+}
+
+.skin-blue .sidebar-menu > li > a { /* Set colors of sidebar text - inactive */
+  background: transparent;
+  color: $med-grey;
+  border-left-color: transparent;
+}
+
+.skin-blue .sidebar-menu > li.active > a, 
+.skin-blue .sidebar-menu > li.active:hover > a { /* Set colors of sidebar text - active */
+  background: transparent;
+  color: $dark-grey;
+  border-left-color: $dark-blue;
+}
+
+.skin-blue .sidebar-menu > li:hover > a { /* Set colors of sidebar text - hover */
+  background: transparent;
+  color: $med-grey;
+  border-left-color: transparent;
+  }
+
+
+/* Fonts */
+
+body {
+  font-family: 'Nunito', Helvetica, sans-serif;
+  color: $med-grey;
+  background-color: $light-grey
+  ;
+}
+
+p {
+  color: $med-grey;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: $dark-blue;
+  letter-spacing: 0;
+  line-height: 1.2em;
+  margin-top: 18px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+h2 {
+  font-size: 32px;
+
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h4 {
+
+  font-size: 18px;
+  font-weight: 400;
+  color: $dark-blue;
+  letter-spacing: 0;
+  line-height: 1.2em;
+}
+
+a {
+  color: $dark-blue;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+label {
+  color: $med-grey;
+}
+
+/* Boxes */
+
+.box {
+  background: #fff;
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 0 0 5px #ccc;
+  border-top-width: 0px;
+  padding: 15px 20px 15px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+/* Nav tabs*/
+
+.nav-tabs-custom { /* For navtabs box (tabs and contents) */
+  background: $white;
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 0 0 5px #ccc;
+  border-top-width: 0px;
+  padding: 15px 20px 15px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.nav-tabs-custom>.nav-tabs { /* For tabs */
+    background-color: $white;
+    border-width: 0px;
+    li {
+      margin-bottom: 0; /* Stops unselected tabs from overlapping with tab-content*/
+    }
+}
+
+.nav-tabs-custom>.nav-tabs>li > a { /* Set color of all tabs */
+   background: $white;
+   color: $med-grey;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active { /* Set border and colors for selected tab */
+    border-top-color: $dark-blue;
+    a { 
+      border-left-width: 0px;
+      border-right-width: 0px;
+    }
+}
+
+/* Other elements*/
+
+.control-label { /* Set color of labels */
+  color: $dark-grey;
+}
+
+img {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.progress-bar, {
+  background-color: $dark-blue; /* Set color of progress bar*/
+  border-radius: 0;
+}
